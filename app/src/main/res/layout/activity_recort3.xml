@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img_2"
+    tools:context=".Recort_3">
+
+     <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="32dp"
+    android:orientation="vertical">
+
+     </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sssss"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/best_time_1"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/best_score_bg"
+            android:text="0"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/best_time_2"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/best_score_bg"
+            android:text="0"
+            android:textSize="30sp" />
+        <TextView
+            android:id="@+id/best_time_3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_margin="5dp"
+            android:background="@drawable/best_score_bg"
+            android:text="0"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btnHome1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginHorizontal="16dp"
+        android:background="?android:selectableItemBackgroundBorderless"
+        android:padding="4dp"
+        android:src="@drawable/baseline_home_24"
+        app:tint="#2C4C79" />
+
+</LinearLayout>

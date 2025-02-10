@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    tools:context=".Menu">
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        android:onClick="clickPlay"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Play"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textStyle="bold"/>
+
+        <Button
+            android:onClick="clickPlay1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Record "
+            android:textStyle="bold"/>
+        <Button
+            android:onClick="clickPlay2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Info"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</FrameLayout>
